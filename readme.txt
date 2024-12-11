@@ -9,6 +9,7 @@ Este é um chatbot sofisticado desenvolvido para fornecer interações inteligen
 - **Resposta Inteligente:** Processamento de mensagens com aprendizado de máquina usando modelos pré-treinados.
 - **Interface Amigável:** Front-end moderno e responsivo para facilitar a interação com o usuário.
 - **API RESTful:** Comunicação eficiente entre o front-end e o back-end.
+
 ---
 
 ## **Requisitos**
@@ -21,10 +22,11 @@ Este é um chatbot sofisticado desenvolvido para fornecer interações inteligen
   - `nltk` para pré-processamento de texto
   - `torch` para suporte ao aprendizado de máquina
   - `socket.io` para atualizações em tempo real
-  
+
 ---
 
 ## **Como Instalar**
+
 1. **Clone o repositório:**
    ```bash
    git clone https://github.com/usuario/chatbot-inteligente.git
@@ -122,7 +124,3 @@ Este projeto é licenciado sob a Licença MIT. Consulte o arquivo `LICENSE` para
 - Adicionar suporte a voz (TTS e STT).
 - Melhorar o design da interface com novos temas.
 - Integrar com serviços como WhatsApp e Telegram.
-
----
-
-Esse `README.md` fornece todos os detalhes necessários para entender, instalar e contribuir para o projeto. Caso precise de ajustes específicos, posso ajudar!
