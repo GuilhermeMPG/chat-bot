@@ -1,7 +1,3 @@
-Aqui está um exemplo detalhado de um arquivo `README.md` para o seu projeto de chatbot em português:
-
----
-
 # **Projeto de Chatbot Inteligente**
 
 ## **Descrição do Projeto**
