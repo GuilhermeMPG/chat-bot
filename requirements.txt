@@ -1,0 +1,32 @@
+# Bibliotecas de Flask para API e interface web
+Flask==2.3.3
+Flask-Cors==3.0.10
+
+# Bibliotecas para processamento de linguagem natural
+transformers==4.31.0
+nltk==3.8.1
+spacy==3.5.3
+
+# Modelos de aprendizado de máquina
+torch==2.0.1
+scikit-learn==1.3.0
+
+# Biblioteca para comunicação com APIs
+requests==2.31.0
+
+# Banco de dados para armazenamento
+SQLAlchemy==2.0.20
+sqlite-utils==3.33
+
+# Integração com front-end
+flask-socketio==5.3.4
+
+# Monitoramento e logging
+loguru==0.7.0
+
+# Ferramentas de análise de texto
+textblob==0.17.1
+
+# Ferramentas adicionais de validação e segurança
+python-dotenv==1.0.0
+validators==0.20.0

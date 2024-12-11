@@ -1,0 +1,279 @@
+{
+    "intents": [
+      {
+        "tag": "saudacao",
+        "patterns": [
+          "Olá",
+          "Oi",
+          "Oi, tudo bem?",
+          "Como você está?",
+          "Bom dia",
+          "Boa tarde",
+          "Boa noite"
+        ],
+        "responses": [
+          "Olá! Como posso te ajudar hoje?",
+          "Oi! Tudo bem com você?",
+          "Olá, é um prazer falar com você!"
+        ]
+      },
+      {
+        "tag": "despedida",
+        "patterns": [
+          "Tchau",
+          "Até mais",
+          "Nos falamos depois",
+          "Tenho que ir",
+          "Adeus",
+          "Até logo"
+        ],
+        "responses": [
+          "Até mais! Foi um prazer te ajudar.",
+          "Tchau, tenha um ótimo dia!",
+          "Até logo! Sempre que precisar, estou por aqui."
+        ]
+      },
+      {
+        "tag": "ajuda",
+        "patterns": [
+          "Preciso de ajuda",
+          "Você pode me ajudar?",
+          "Estou com dúvida",
+          "Pode me dar suporte?",
+          "Como funciona isso?",
+          "Me explique como fazer isso"
+        ],
+        "responses": [
+          "Claro! Me diga o que você precisa.",
+          "Com certeza, estou aqui para ajudar. Qual é sua dúvida?",
+          "Posso te ajudar com qualquer coisa que precisar. Vamos lá!"
+        ]
+      },
+      {
+        "tag": "informacoes_sistema",
+        "patterns": [
+          "Como você funciona?",
+          "O que você pode fazer?",
+          "Qual é o seu propósito?",
+          "Como você foi criado?",
+          "O que você sabe?"
+        ],
+        "responses": [
+          "Eu sou um chatbot projetado para ajudar você. Posso responder perguntas, fornecer informações ou ajudar com tarefas específicas.",
+          "Fui criado para te auxiliar com o que você precisar. Pergunte-me algo e farei o meu melhor para ajudar.",
+          "Eu sou um sistema de inteligência artificial treinado para interagir e responder às suas perguntas. Como posso te ajudar?"
+        ]
+      },
+      {
+        "tag": "agradecimento",
+        "patterns": [
+          "Obrigado",
+          "Muito obrigado",
+          "Valeu",
+          "Agradeço a ajuda",
+          "Você foi ótimo"
+        ],
+        "responses": [
+          "De nada! Sempre que precisar, estarei por aqui.",
+          "Por nada! É um prazer ajudar.",
+          "Fico feliz em poder ajudar! Conte comigo sempre."
+        ]
+      },
+      {
+        "tag": "problemas_uso",
+        "patterns": [
+          "Não consigo acessar o sistema",
+          "Está dando erro",
+          "Algo deu errado",
+          "Não está funcionando",
+          "O site está fora do ar"
+        ],
+        "responses": [
+          "Entendo sua frustração. Você pode tentar novamente ou descrever o problema com mais detalhes para que eu possa ajudar.",
+          "Sinto muito pelo inconveniente. Vamos resolver isso juntos. Qual é o problema exatamente?",
+          "Pode me dar mais informações sobre o erro? Assim poderei ajudar melhor."
+        ]
+      },
+      {
+        "tag": "perguntas_gerais",
+        "patterns": [
+          "Qual é a capital do Brasil?",
+          "Quantos anos tem o universo?",
+          "O que é inteligência artificial?",
+          "Me diga algo interessante",
+          "Você pode me ensinar matemática?"
+        ],
+        "responses": [
+          "A capital do Brasil é Brasília.",
+          "O universo tem aproximadamente 13,8 bilhões de anos.",
+          "Inteligência Artificial é a capacidade de máquinas realizarem tarefas que normalmente exigem inteligência humana, como aprendizado e tomada de decisões.",
+          "Claro, posso tentar responder suas perguntas ou ajudar com cálculos. Qual é a dúvida?"
+        ]
+      },
+      {
+        "tag": "piadas",
+        "patterns": [
+          "Me conte uma piada",
+          "Você sabe alguma piada?",
+          "Quero rir",
+          "Conte algo engraçado"
+        ],
+        "responses": [
+          "Por que o tomate foi ao tribunal? Porque ele foi acusado de extraviar o molho!",
+          "O que o zero disse para o oito? Que cinto maneiro!",
+          "Sabe qual é o cúmulo do absurdo? Dormir no chão e acordar em pé!"
+        ]
+      },
+      {
+        "tag": "consulta_status",
+        "patterns": [
+          "Qual é o status do meu pedido?",
+          "Meu pedido já foi enviado?",
+          "Pode verificar o andamento do meu pedido?",
+          "Como está o meu pedido?",
+          "Já foi processado?"
+        ],
+        "responses": [
+          "Claro! Você pode informar o número do pedido para que eu possa verificar?",
+          "Com certeza. Por favor, me passe mais detalhes do seu pedido.",
+          "Vou checar isso para você. Qual é o número do pedido?"
+        ]
+      },
+      {
+        "tag": "informacao_contato",
+        "patterns": [
+          "Como entro em contato com vocês?",
+          "Qual é o telefone de vocês?",
+          "Vocês têm email para suporte?",
+          "Como posso falar com um atendente?",
+          "Preciso do número do suporte"
+        ],
+        "responses": [
+          "Você pode entrar em contato conosco pelo telefone (xx) xxxx-xxxx ou pelo email suporte@exemplo.com.",
+          "Nosso telefone de suporte é (xx) xxxx-xxxx, e nosso email é suporte@exemplo.com.",
+          "Pode nos ligar pelo número (xx) xxxx-xxxx ou enviar um email para suporte@exemplo.com."
+        ]
+      },
+      {
+        "tag": "solicitacao_orcamento",
+        "patterns": [
+          "Gostaria de um orçamento",
+          "Você pode me passar um orçamento?",
+          "Quanto custa o serviço?",
+          "Pode calcular o valor para mim?",
+          "Preciso de um valor estimado"
+        ],
+        "responses": [
+          "Claro! Pode me passar mais detalhes do que você precisa para que eu possa calcular?",
+          "Sim, estou aqui para ajudar. Qual é o serviço ou produto que você deseja orçar?",
+          "Com certeza. Por favor, descreva o que você precisa, e eu farei o orçamento para você."
+        ]
+      },
+      {
+        "tag": "problemas_login",
+        "patterns": [
+          "Não consigo acessar minha conta",
+          "Esqueci minha senha",
+          "Minha conta está bloqueada",
+          "Está dando erro ao entrar no sistema",
+          "Não consigo fazer login"
+        ],
+        "responses": [
+          "Entendo. Você pode tentar redefinir sua senha usando a opção 'Esqueci minha senha' na página de login.",
+          "Parece que você está com dificuldades para acessar sua conta. Deseja que eu envie instruções para recuperação?",
+          "Se sua conta está bloqueada, entre em contato com o suporte pelo email suporte@exemplo.com para resolvermos isso."
+        ]
+      },
+      {
+        "tag": "reclamacoes",
+        "patterns": [
+          "Quero fazer uma reclamação",
+          "Não gostei do serviço",
+          "Estou insatisfeito com o atendimento",
+          "O serviço foi ruim",
+          "Preciso registrar uma queixa"
+        ],
+        "responses": [
+          "Lamento saber disso. Você pode me contar o que aconteceu para que possamos melhorar?",
+          "Sinto muito por isso. Estou aqui para ajudar a resolver qualquer problema. Pode explicar com mais detalhes?",
+          "Lamentamos pela experiência. Fale mais sobre o problema, e faremos o possível para corrigir."
+        ]
+      },
+      {
+        "tag": "elogios",
+        "patterns": [
+          "Adorei o atendimento",
+          "Vocês são ótimos",
+          "Gostei muito do serviço",
+          "Parabéns pelo trabalho",
+          "Quero elogiar o suporte"
+        ],
+        "responses": [
+          "Muito obrigado pelo feedback! Estamos sempre aqui para ajudar.",
+          "Que ótimo ouvir isso! Agradecemos muito por suas palavras.",
+          "Ficamos muito felizes em saber disso. Obrigado pelo carinho!"
+        ]
+      },
+      {
+        "tag": "conversas_gerais",
+        "patterns": [
+          "Como está o tempo hoje?",
+          "Você gosta de música?",
+          "Qual é o seu filme favorito?",
+          "Você tem hobbies?",
+          "Me conte algo interessante"
+        ],
+        "responses": [
+          "Eu não saio muito para ver o tempo, mas você pode verificar no seu app de previsão!",
+          "Eu gosto de aprender coisas novas, é como um hobby para mim. O que você gosta de fazer?",
+          "Sabia que a Terra gira em torno do sol a 108.000 km/h? Fascinante, né?"
+        ]
+      },
+      {
+        "tag": "motivacao",
+        "patterns": [
+          "Preciso de motivação",
+          "Você pode me animar?",
+          "Estou desanimado",
+          "Diga algo motivador",
+          "Me ajude a ficar motivado"
+        ],
+        "responses": [
+          "Lembre-se: cada dia é uma nova chance de fazer algo incrível.",
+          "Você é mais forte do que imagina. Continue avançando!",
+          "O sucesso é a soma de pequenos esforços repetidos dia após dia. Você consegue!"
+        ]
+      },
+      {
+        "tag": "confirmacao",
+        "patterns": [
+          "Ok",
+          "Entendi",
+          "Beleza",
+          "Certo",
+          "Pode ser"
+        ],
+        "responses": [
+          "Ótimo! Se precisar de mais alguma coisa, é só avisar.",
+          "Tudo bem. Estou aqui se precisar de mais alguma coisa.",
+          "Perfeito! Continuo à disposição."
+        ]
+      },
+      {
+        "tag": "cancelamento_servico",
+        "patterns": [
+          "Quero cancelar meu serviço",
+          "Como faço para cancelar?",
+          "Preciso encerrar minha assinatura",
+          "Pode cancelar isso para mim?",
+          "Quero sair do plano"
+        ],
+        "responses": [
+          "Entendo. Pode me passar o número da conta ou assinatura para que eu possa processar o cancelamento?",
+          "Sem problemas. Por favor, forneça mais detalhes sobre o serviço que deseja cancelar.",
+          "Vou te ajudar com isso. Qual é o serviço que deseja cancelar?"
+        ]
+      }
+    ]
+  }
+  
